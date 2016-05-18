@@ -1,2 +1,2 @@
-# r-cab
+# crab
 Redundant Continuous Analysis of Behavior 
