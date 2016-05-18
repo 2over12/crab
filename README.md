@@ -1,2 +1,2 @@
 # crab
-Redundant Continuous Analysis of Behavior 
+Continuous Redundant Analysis of Behavior 
