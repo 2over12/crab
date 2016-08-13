@@ -7,12 +7,13 @@ void DLLInject(char dllName[],DWORD pid);
 int main(int argc,char *argv[])
 {	
 	DWORD pid;
-
-	pid=getPid("test.exe");
-	printf("%d",pid);
-	if(pid<0)
-		return 0;
+	pid=getPid("iexplore.exe");
+	printf("%d\n",pid);
 	DLLInject("box.dll",pid);
+	printf("success\n");
+	
+
+	return 0;
 }
 
 void DLLInject(char dllName[],DWORD pid)
